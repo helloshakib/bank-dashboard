@@ -84,6 +84,25 @@
       
       const depositNumber = getInputNumber("depositAmount");
 
+      // ================ without function ================
+      // const currentDeposit = document.getElementById('currentDeposit').innerText;
+      // const currentDepositNumber = parseFloat(currentDeposit);
+
+      // const totalDeposit = depositNumber + currentDepositNumber;
+
+      // document.getElementById('currentDeposit').innerText = totalDeposit;
+
+      // Balance event handeler
+      // const currentBalance = document.getElementById('currentBalance').innerText;
+      // const currentBalanceNumber = parseFloat(currentBalance);
+      // const totalCurrentBalance = currentBalanceNumber + depositNumber;
+
+      // document.getElementById('currentBalance').innerText = totalCurrentBalance;
+
+
+
+      // ================ with function ================
+
       updateSpanText("currentDeposit", depositNumber);
       updateSpanText("currentBalance", depositNumber);
       
